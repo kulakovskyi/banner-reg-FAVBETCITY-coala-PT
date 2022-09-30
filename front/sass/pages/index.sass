@@ -21,7 +21,7 @@ body
   height: 100%
   display: flex
 .banner
-  width: 100%
+  width: 50%
   height: 100vh
   height: calc(var(--vh, 1vh) * 100)
   background: $blue
@@ -37,7 +37,7 @@ body
     z-index: 1
   &__pers
     position: absolute
-    bottom: 0
+    bottom: -10px
     left: -159px
     height: 71vh
     width: 52vh
@@ -51,8 +51,8 @@ body
     z-index: 10
   &__title
     font-family: $font-suisseintl-semb
-    font-size: 116px
-    line-height: 150px
+    font-size: 97px
+    line-height: 126px
     letter-spacing: 0.03em
     text-transform: uppercase
     font-feature-settings: 'pnum' on, 'lnum' on
@@ -81,6 +81,7 @@ body
       padding: 6px 8px 4px
       margin-top: -2px
       border-radius: 0px 0px 8px 8px
+      text-transform: uppercase
       span
         color: #FFFFFF
   &__footer
@@ -98,7 +99,7 @@ body
     &-item
       display: flex
       align-items: center
-      margin: 0 40px 0 0
+      margin: 0 75px 0 0
       &:last-child
         margin: 0
       .percent
@@ -118,6 +119,7 @@ body
         line-height: 26px
         letter-spacing: 0.02em
         color: $magenta
+        text-transform: uppercase
 
 
 
